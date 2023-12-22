@@ -1,0 +1,176 @@
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .navbar {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0;
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+        border-radius: 6px;
+        width: 90px;
+        height: 30px;
+        color: #fff;
+        line-height: 28px;
+        margin: 20px 0;
+        border: 2px solid #fff;
+        font-weight: 400;
+    }
+    #navbarNavAltMarkup {
+        padding: 20px;
+        background-color: #1d1d1d;
+        z-index: 1002;
+    }
+    .navbar-brand {
+        margin-left: 15px;
+        max-width: 100px;
+    }
+
+    .carousel-indicators li {
+        height: 40px;
+    }
+    .slide-text {
+        padding: 15px 15px 10px;
+        margin-left: 65px;
+        margin-top: -40px;
+    }
+    .slide-text span {
+        font-size: 24px;
+    }
+    .slide-text p {
+        font-size: 16px;
+    }
+    .contact-area.mt-100,
+    .login-area.mt-100,
+    .entra-area.mt-100 {
+        margin-top: 70px;
+    }
+    .contact-heading-text h2,
+    .login-heading-text h2,
+    .entra-heading-text h2 {
+        font-size: 20px;
+    }
+    .contact-heading-text p,
+    .login-heading-text p,
+    .entra-heading-text p {
+        margin-bottom: 30px;
+    }
+    
+    .gallery_area {
+        height: auto;
+        width: calc(100% - 90px);
+        overflow-y: auto;
+        position: relative;
+        z-index: 1;
+        top: 100px;
+        left: 60px;
+        right: 15px;
+        padding-right: 15px;
+    }
+    .gallery_menu {
+        margin-bottom: 30px;
+    }
+    .gallery-menu button {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0;
+        font-size: 20px;
+        background-color: transparent;
+        border: none;
+        border-radius: 6px;
+        width: 120px;
+        height: 35px;
+        color: #fff;
+        line-height: 28px;
+        margin: 38px 0;
+        border: 2px solid #fff;
+        font-weight: 400;
+    }
+    #navbarNavAltMarkup {
+        padding: 30px;
+        background-color: #1d1d1d;
+        z-index: 1002;
+    }
+    .image-background_01 {
+        background-image: url(../img/carousel/home-slider01_992.jpg);
+    }
+    .image-background_02 {
+        background-image: url(../img/carousel/home-slider02_992.jpg);
+    }
+    .image-background_03 {
+        background-image: url(../img/carousel/home-slider03_992.jpg);
+    }
+    .image-background_04 {
+        background-image: url(../img/carousel/home-slider04_992.jpg);
+    }
+    .image-background_05 {
+        background-image: url(../img/carousel/home-slider05_992.jpg);
+    }
+    .image-background_06 {
+        background-image: url(../img/carousel/home-slider06_992.jpg);
+    }
+    .image-background_07 {
+        background-image: url(../img/carousel/home-slider07_992.jpg);
+    }
+    .image-background_08 {
+        background-image: url(../img/carousel/home-slider08_992.jpg);
+    }
+    .image-background_09 {
+        background-image: url(../img/carousel/home-slider09_992.jpg);
+    }
+    .image-background_10 {
+        background-image: url(../img/carousel/home-slider10_992.jpg);
+    }
+    .carousel-indicators li {
+        height: 50px;
+    }
+    .slide-text {
+        margin-left: 120px;
+        margin-top: -50px;
+    }
+    .slide-text span {
+        font-size: 60px;
+    }
+    .slide-text p {
+        font-size: 24px;
+    }
+    .gallery_area {
+        height: calc(100% - 380px);
+        width: calc(100% - 130px);
+        left: 100px;
+        right: 30px;
+        padding-right: 30px;
+    }
+    .portfolio-menu button {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* Navigation */
+    .navbar .container {
+        max-width: 1330px;
+    }
+    /* end of navigation */
+    .gallery_area {
+        height: calc(100% - 380px);
+        width: calc(100% - 180px);
+        left: 120px;
+        right: 60px;
+        padding-right: 45px;
+    }
+}
