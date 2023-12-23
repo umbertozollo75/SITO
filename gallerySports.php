@@ -138,7 +138,11 @@
                         }
 
                         echo "<div class=\"col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item " . trim($filterStr) . " \">";
+                        
+                        echo "<div class=\"image-container\">";
                         echo "<img src=\"" . $imagePath . "\" alt=\"\">";
+                        echo "</div>";
+                        
                         echo "</div>";
                     }
 ?>

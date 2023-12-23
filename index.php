@@ -51,7 +51,7 @@
                                 <a class="nav-link page-scroll" href="./index.php">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Gallery</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item page-scroll" href="./entra.php">Nude-Art</a>
                                     <div class="dropdown-divider"></div>
@@ -127,7 +127,7 @@
                         <div class="carousel-content h-100">
                             <div class="slide-text">
                                 <span>
-                                    Celeste...
+                                    Dafne...
                                     <p></p>
                                 </span>
                             </div>

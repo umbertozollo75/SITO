@@ -140,7 +140,17 @@
                         }
 
                         echo "<div class=\"col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item " . trim($filterStr) . " \">";
-                        echo "<img src=\"" . $imagePath . "\" alt=\"\">";
+                        
+                        echo "<div class=\"image-container\">";
+                        
+                        echo "<img src=\"" . $imagePath . "\" class=\"img-fluid\" alt=\"\">";
+                        
+                        echo "<div class=\"gallery-links\">";  
+                        echo "<a href=\"./galleryView.php?page=" . $nomePage . "&nome=" . $nomeStr . "&category=nudeart\" class=\"gallery-details-lightbox\" title=\"\"><i class=\"fas fa-link\"></i></i></a>";
+                        echo "</div>";
+                        
+                        echo "</div>";
+                        
                         echo "</div>";
                     }
 ?>

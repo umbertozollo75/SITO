@@ -120,19 +120,19 @@
                     </div>
                     <div class="col-10">
                         <div class="contact-form-area">
-                            <form action="#" method="post">
+                            <form id="contactForm" action="#" method="post">
                                 <div class="row">
                                     <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                                     </div>
                                     <div class="col-12 col-md-4">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                                     </div>
                                     <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
                                     </div>
                                     <div class="col-12">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
                                     </div>
                                     <div class="col-12 text-center">
                                         <button type="submit" class="btn uz-btn mt-3"> Send</button>
