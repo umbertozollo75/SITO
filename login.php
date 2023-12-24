@@ -123,10 +123,10 @@
                             <form action="#" method="post">
                                 <div class="row">
                                     <div class="col-12 col-md-6">
-                                        <input type="text" class="form-control" name="username" id="username" placeholder="Your username">
+                                        <input type="text" class="form-control" id="username" name="username" placeholder="Your username" required>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
                                     </div>
                                     <div class="col-12 text-center">
                                         <button type="submit" class="btn uz-btn mt-3"> Send</button>
